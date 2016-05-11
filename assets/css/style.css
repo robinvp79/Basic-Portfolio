@@ -1,0 +1,31 @@
+#fixed{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: #eee;
+	text-align: center;
+	padding: 50px;
+	z-index: 1;
+}
+#content{
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	right: 150px;
+}
+#relative{
+	background: #eee;
+	padding-top: 40px;
+	padding-bottom: 117px;
+	color: #333;
+	text-align: center;
+}
+#absolute{
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	background: #999;
+	padding: 40px;
+	padding-right: 180px;
+	padding-left: 180px;
+}
